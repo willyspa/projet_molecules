@@ -4766,8 +4766,14 @@ input[type="button"].btn-block {
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  border:solid 1px #FF7518;
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
 
 .card > hr {
@@ -4806,8 +4812,9 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #FF7518;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  color:white;s
 }
 
 .card-header + .list-group .list-group-item:first-child {
