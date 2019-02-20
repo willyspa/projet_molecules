@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style/bootstrap.css" media="screen">
+      <!--To Work with icons-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+<a href="index.html">retour</a>
+<div class="row justify-content-center">
+
+
+<article class="card col-lg-6 ">
+    <div class="card-body p-5">
+        <p> <img src="http://bootstrap-ecommerce.com/ui-ecommerce/images/icons/pay-visa.png">
+            <img src="http://bootstrap-ecommerce.com/ui-ecommerce/images/icons/pay-visa-el.png">
+            <img src="http://bootstrap-ecommerce.com/ui-ecommerce/images/icons/pay-mastercard.png">
+            <img src="http://bootstrap-ecommerce.com/ui-ecommerce/images/icons/pay-american-ex.png"> </p>
+        <p class="alert alert-success">Some text success or error</p>
+
+        <form role="form">
+            <div class="form-group">
+                <label for="username">Full name (on the card)</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                    </div>
+                    <input type="text" class="form-control" name="username" placeholder="" required="">
+                </div> <!-- input-group.// -->
+            </div> <!-- form-group.// -->
+
+            <div class="form-group">
+                <label for="cardNumber">Card number</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-credit-card"></i></span>
+                    </div>
+                    <input type="text" class="form-control" name="cardNumber" placeholder="">
+                </div> <!-- input-group.// -->
+            </div> <!-- form-group.// -->
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label><span class="hidden-xs">Expiration</span> </label>
+                        <div class="form-inline">
+                            <select class="form-control" style="width:45%">
+                                <option>MM</option>
+                                <option>01 - January</option>
+                                <option>02 - February</option>
+                                <option>03 - March</option>
+                            </select>
+                            <span style="width:10%; text-align: center"> / </span>
+                            <select class="form-control" style="width:45%">
+                                <option>YY</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                        <input class="form-control" required="" type="text">
+                    </div> 
+                </div>
+            </div>
+            <button class="subscribe btn btn-primary btn-block" type="button"> Confirm  </button>
+        </form>
+    </div>
+</article>
+</div>
+</body>
+</html>

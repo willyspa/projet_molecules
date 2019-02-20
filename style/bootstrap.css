@@ -72,6 +72,18 @@ body {
   background-color: #f8f9fa;
 }
 
+.section-imagetext{
+height:300px;
+}
+
+footer{
+  width:100%;
+
+  background-color:#373a3c;
+  color:white;
+
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -4775,6 +4787,9 @@ input[type="button"].btn-block {
   margin-right: 25px;
 
 }
+.card-user{
+  border:solid 3px #000000;
+}
 
 .card > hr {
   margin-right: 0;
@@ -5240,6 +5255,17 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/713px-Paris_Night.jpg");
+  background-size: cover;
+  color:white;
+}
+.jumbotronsmall {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/713px-Paris_Night.jpg");
+  background-size: 100%;
+  color:white;
 }
 
 @media (min-width: 576px) {
